@@ -1,7 +1,7 @@
 {
     "name"         : "npm-maintainers"
   , "version"      : "0.0.0"
-  , "description"  : ""
+  , "description"  : "A utility to fetch and collate a list of npm package maintainers for a particular country or region"
   , "main"         : "npm-maintainers.js"
   , "scripts"      : {
         "test": "node ./test.js"

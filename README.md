@@ -3,7 +3,7 @@ npm-maintainers
 
 A utility to fetch and collate a list of npm package maintainers for a particular country or region. Uses data collected daily at <https://github.com/polyhack/npm-github-data>. Collected by [npm-github-data-collector](https://github.com/polyhack/npm-github-data-collector).
 
-Currently there is only a list of Australian users, this is determined by a large regex matching against the GitHub account *location* field.
+Currently there is only a list of Australian users, this is determined by a large regex matching against the GitHub account *location* field. See the See **[npm-maintainers-au](https://github.com/polyhack/npm-maintainers-au)** package for a wrapper that provides the Australian list.
 
 **If you wish to have your own country included in the list, perhaps you want to set up a site like <http://nodejs.org.au>, file an issue on [npm-github-data-collector](https://github.com/polyhack/npm-github-data-collector) and we'll get it done!**
 
