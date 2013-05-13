@@ -1,0 +1,1 @@
+console.log('test.js moved to npm-maintainers-au package, run there instead')
