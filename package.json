@@ -1,21 +1,21 @@
 {
-    "name"         : "npm-maintainers"
-  , "version"      : "0.0.0"
-  , "description"  : "A utility to fetch and collate a list of npm package maintainers for a particular country or region"
-  , "main"         : "npm-maintainers.js"
-  , "scripts"      : {
-        "test": "node ./test.js"
-    }
-  , "repository"      : {
-        "type"            : "git"
-      , "url"             : "https://github.com/polyhack/npm-maintainers.git"
-    }
-  , "authors"         : [
-        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
-    ]
-  , "license"      : "MIT"
-  , "dependencies" : {
-        "after"   : "~0.7.0"
-      , "request" : "~2.21.0"
-    }
+  "name": "npm-maintainers",
+  "version": "0.0.1",
+  "description": "A utility to fetch and collate a list of npm package maintainers for a particular country or region",
+  "main": "npm-maintainers.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polyhack/npm-maintainers.git"
+  },
+  "authors": [
+    "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "after": "~0.7.0",
+    "request": "~2.21.0"
+  }
 }
