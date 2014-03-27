@@ -1,5 +1,5 @@
-const GITHUB_USERS_DATA_URL     = 'https://raw.github.com/polyhack/npm-github-data/master/githubusers_{cc}.json'
-    , ALL_NPM_PACKAGES_DATA_URL = 'https://raw.github.com/polyhack/npm-github-data/master/allpackages.json'
+const GITHUB_USERS_DATA_URL     = 'https://raw.githubusercontent.com/polyhack/npm-github-data/master/githubusers_{cc}.json'
+    , ALL_NPM_PACKAGES_DATA_URL = 'https://raw.githubusercontent.com/polyhack/npm-github-data/master/allpackages.json'
 
 const request          = require('request')
     , after            = require('after')
